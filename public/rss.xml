@@ -4,7 +4,6 @@
    <title>Kay-So Podcast</title>
    <description>The Kay-So Podcast for your listening pleasures</description>
    <link>http://www.kay-so.com</link>
-
   <item>
     <title>KS Episode One</title>
     <description>For your listening pleasures.</description>
@@ -13,7 +12,6 @@
     <guid>f808e46a-1fb2-4634-8b45-2ed2a95091af</guid>
     <pubDate>Mon, 01 Jan 2023 11:11:00 +0000 </pubDate>
   </item>
-
   <item>
     <title>KS Episode Two</title>
     <description>Nevermore</description>
@@ -22,6 +20,5 @@
     <guid>27af7e51-634b-41d9-a1c6-537ad9d99af8</guid>
     <pubDate>Mon, 03 Jan 2023 11:11:00 +0000 </pubDate>
   </item>
-
 </channel>
 </rss>
