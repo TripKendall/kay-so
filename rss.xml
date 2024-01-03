@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+   <title>Kay-So Podcast</title>
+   <description>The Kay-So Podcast for your listening pleasures</description>
+   <link>http://www.kay-so.com</link>
+
+  <item>
+    <title>KS Episode One</title>
+    <description>For your listening pleasures.</description>
+    <link>http://kay-so.com/audio/kay-so-two-nevermore.mp3</link>
+    <enclosure url="http://kay-so.com/audio/kay-so-one.mp3" length="" type="audio/mpeg" />
+    <guid>f808e46a-1fb2-4634-8b45-2ed2a95091af</guid>
+    <pubDate>Mon, 01 Jan 2023 11:11:00 +0000 </pubDate>
+  </item>
+
+  <item>
+    <title>KS Episode Two</title>
+    <description>Nevermore</description>
+    <link>http://kay-so.com/audio/kay-so-two-nevermore.mp3</link>
+    <enclosure url="http://kay-so.com/audio/kay-so-two-nevermore.mp3" length="" type="audio/mpeg" />
+    <guid>27af7e51-634b-41d9-a1c6-537ad9d99af8</guid>
+    <pubDate>Mon, 03 Jan 2023 11:11:00 +0000 </pubDate>
+  </item>
+
+</channel>
+</rss>
