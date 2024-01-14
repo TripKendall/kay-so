@@ -8,28 +8,26 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <h5>Trip Clicks:</h5>
             <ul class="list-unstyled mb-0">
-              <li><a href="https://tripkendall.com">The Home Page</a></li>
-              <li><a href="/about">About Trip Kendall</a></li>
-              <li><a href="/contact">Contact Trip Kendall</a></li>
-              <li><a href="/article/pandas">Python Revisted</a></li>
+              <li><a href="https://tripkendall.com">TripKendall.com</a></li>
+              <li><a href="https://tripkendall.com/about">About Trip Kendall</a></li>
+              <li><a href="/page/music">Trip Music</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
-            <h5>Good Clicks:</h5>
+            <h5>Kay-So Episodes:</h5>
             <ul class="list-unstyled mb-0">
-              <li><a href="/#main-video">Latest Video</a></li>
-              <li><a href="/page/music">My Music</a></li>
-              <li><a href="/page/design">Design</a></li>
-              <li><a href="/article/webapps">Web Apps</a></li>
+              <li><a href="/audio/kay-so-one.mp3">Episode One</a></li>
+              <li><a href="/audio/kay-so-two-nevermore.mp3">Episode Two</a></li>
+              <li><a href="https://kay-so.com/rss.xml">RSS Feed</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
             <h5>Xternal Clicks:</h5>
             <ul class="list-unstyled mb-0">
-              <li><a href="https://twitter.com/Trip_Kendall">Me on X</a></li>
-              <li><a href="https://github.com/TripKendall">My Github</a></li>
-              <li><a href="https://rumble.com/user/tripkendall">My Rumble Videos</a></li>
-              <li><a href="https://saltyape.com">Salty Ape Template</a></li>
+              <li><a href="https://twitter.com/Trip_Kendall">Trip on X</a></li>
+              <li><a href="https://github.com/TripKendall">Trip Github</a></li>
+              <li><a href="https://rumble.com/user/tripkendall">Trip Videos</a></li>
+
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
@@ -43,7 +41,6 @@
         </div>
 
       </div>
-
 
     </div>
 

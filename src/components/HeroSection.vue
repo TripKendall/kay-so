@@ -2,7 +2,7 @@
   <section class="hero pre-leader-board leader-board">
     <div class="container w-75">
       <div class="hero-section-content text-center">
-        <img :src="pageData.image" :alt="pageData.subtitle" class="img-fluid">
+        <img :src="pageData.image" :alt="pageData.subtitle" id="hero-img" class="img-fluid">
         <h2 class="title text-uppercase mt-3">
           Kay<span class="primary-text">-So</span>
         </h2>
@@ -14,21 +14,31 @@
         </p>
 
         <div class="kay-so-podcast">
-          <div class="kay-so-podcast-episode">
-        <h5>Episode One - Your listening pleasures</h5>
-          <audio controls>
-            <source src="/audio/kay-so-one.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-          </audio>
-        </div>
 
-        <div class="kay-so-podcast-episode">
-        <h5>Episode Two - Nevermore</h5>
-          <audio controls>
-            <source src="/audio/kay-so-two-nevermore.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-          </audio>
-        </div>
+          <div class="kay-so-podcast-episode">
+            <h5>Episode Three - Fresh out the shower baby</h5>
+            <audio controls>
+              <source src="/audio/kay-so-podcast-three.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+
+          <div class="kay-so-podcast-episode">
+            <h5>Episode Two - Nevermore</h5>
+            <audio controls>
+              <source src="/audio/kay-so-two-nevermore.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+
+          <div class="kay-so-podcast-episode">
+            <h5>Episode One - Your listening pleasures</h5>
+            <audio controls>
+              <source src="/audio/kay-so-one.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+
         </div>
         <!-- <p>
           <a href="#what">More Info...</a>
@@ -45,7 +55,7 @@ const pageData = ref(
   {
     title: 'Kay-So',
     subtitle: 'For your listening pleasures...',
-    description: 'The Kay-So Podcast is a collection of audio flotsam and jetsam from the interwebs filtered through the mind of Kay-So.  If you are interested in listening differently this podcast may be for you. I like to think of it as a podcast palate cleanse.',
+    description: 'The Kay-So Podcast is a collection of audio flotsam and jetsam from the interwebs filtered through the mind of Kay-So.  If you are interested in listening differently this podcast may be for you. I like to think of it as a podcast palate cleanse. The latest episode features the Bagwas Boys and Adlai Stevenson?',
     image: '/images/kay-so-280.webp',
     imageAlt: 'Kay-So',
   }
@@ -56,24 +66,24 @@ const pageData = ref(
 <style scoped>
 .hero {
   background-image: linear-gradient(45deg,
-    hsl(0deg 0% 5%) 0%,
-    hsl(344deg 0% 4%) 10%,
-    hsl(344deg 0% 3%) 20%,
-    hsl(344deg 0% 2%) 30%,
-    hsl(344deg 0% 1%) 40%,
-    hsl(0deg 0% 0%) 50%,
-    hsl(344deg 0% 1%) 60%,
-    hsl(344deg 0% 3%) 70%,
-    hsl(344deg 0% 4%) 80%,
-    hsl(344deg 0% 5%) 90%,
-    hsl(0deg 0% 6%) 100%);
+      hsl(0deg 0% 5%) 0%,
+      hsl(344deg 0% 4%) 10%,
+      hsl(344deg 0% 3%) 20%,
+      hsl(344deg 0% 2%) 30%,
+      hsl(344deg 0% 1%) 40%,
+      hsl(0deg 0% 0%) 50%,
+      hsl(344deg 0% 1%) 60%,
+      hsl(344deg 0% 3%) 70%,
+      hsl(344deg 0% 4%) 80%,
+      hsl(344deg 0% 5%) 90%,
+      hsl(0deg 0% 6%) 100%);
 }
 
 .download-button {
   margin: .3rem 0 3rem 0;
 }
 
-.kay-so-podcast{
+.kay-so-podcast {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,6 +96,11 @@ const pageData = ref(
   min-width: 640px;
   border-radius: .33rem;
   border: 5px solid rgba(0, 0, 0, .3);
+}
+
+img#hero-img {
+  border-radius: 2rem !important;
+  border: 10px solid rgba(0, 0, 0, .9) !important;
 }
 
 audio::-webkit-media-controls-enclosure {

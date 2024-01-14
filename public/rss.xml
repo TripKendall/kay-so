@@ -5,20 +5,28 @@
    <description>The Kay-So Podcast for your listening pleasures</description>
    <link>http://www.kay-so.com</link>
   <item>
-    <title>KS Episode One</title>
-    <description>For your listening pleasures.</description>
-    <link>http://kay-so.com/audio/kay-so-two-nevermore.mp3</link>
-    <enclosure url="http://kay-so.com/audio/kay-so-one.mp3" length="" type="audio/mpeg" />
-    <guid>f808e46a-1fb2-4634-8b45-2ed2a95091af</guid>
-    <pubDate>Mon, 01 Jan 2023 11:11:00 +0000 </pubDate>
+    <title>Kay-So Episode Three</title>
+    <description>Fresh out the shower baby.</description>
+    <link>http://kay-so.com/audio/kay-so-podcast-three.mp3</link>
+    <enclosure url="http://kay-so.com/audio/kay-so-podcast-three.mp3" length="10864662" type="audio/mpeg" />
+    <guid isPermaLink="false">f308e46a-1fb2-4634-8b45-2ed2a95091af</guid>
+    <pubDate>Sat, 13 Jan 2024 11:11:00 +0000 </pubDate>
   </item>
   <item>
-    <title>KS Episode Two</title>
+    <title>Kay-So Episode Two</title>
     <description>Nevermore</description>
     <link>http://kay-so.com/audio/kay-so-two-nevermore.mp3</link>
-    <enclosure url="http://kay-so.com/audio/kay-so-two-nevermore.mp3" length="" type="audio/mpeg" />
-    <guid>27af7e51-634b-41d9-a1c6-537ad9d99af8</guid>
-    <pubDate>Mon, 03 Jan 2023 11:11:00 +0000 </pubDate>
+    <enclosure url="http://kay-so.com/audio/kay-so-two-nevermore.mp3" length="11501191" type="audio/mpeg" />
+    <guid isPermaLink="false">27af7e51-634b-41d9-a1c6-537ad9d99af8</guid>
+    <pubDate>Wed, 03 Jan 2024 11:11:00 +0000 </pubDate>
+  </item>
+    <item>
+    <title>Kay-So Episode One</title>
+    <description>For your listening pleasures.</description>
+    <link>http://kay-so.com/audio/kay-so-two-nevermore.mp3</link>
+    <enclosure url="http://kay-so.com/audio/kay-so-one.mp3" length="19026546" type="audio/mpeg" />
+    <guid isPermaLink="false">f808e46a-1fb2-4634-8b45-2ed2a95091af</guid>
+    <pubDate>Mon, 01 Jan 2024 11:11:00 +0000 </pubDate>
   </item>
 </channel>
 </rss>

@@ -3003,7 +3003,7 @@ textarea.form-control-lg {
   .input-group-lg>.form-select,
   .input-group-lg>.input-group-text,
   .input-group-lg>.btn {
-    font-size: 1.40625rem;
+    font-size: 1.rem;
   }
 }
 
@@ -3273,7 +3273,7 @@ textarea.form-control.is-invalid {
   --bs-btn-padding-x: 10px;
   --bs-btn-padding-y: 6px;
   --bs-btn-font-family: Rajdhani-SemiBold;
-  --bs-btn-font-size: 1.25rem;
+  --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 500;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #121F3E;
@@ -3534,13 +3534,7 @@ fieldset:disabled .btn {
   --bs-btn-border-radius: 1rem;
 }
 
-@media (min-width: 1200px) {
 
-  .btn-lg,
-  .btn-group-lg>.btn {
-    --bs-btn-font-size: 1.40625rem;
-  }
-}
 
 .btn-sm,
 .btn-group-sm>.btn {
